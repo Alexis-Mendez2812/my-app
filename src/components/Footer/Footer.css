@@ -1,0 +1,15 @@
+.Footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#434343;
+    color: #faebd7;
+    
+}
+.Footer a {
+    text-decoration: none;
+    color: aliceblue;
+}
