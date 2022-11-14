@@ -8,8 +8,8 @@ const NavBar = () => {
 			<a href="/">
             <img className='logo' src={logo} alt="logo" />
             </a>
-			<a href="/aboutme">About me</a>
-			<a href="/contact">Contact</a>
+			<a href="/aboutMe">About me</a>
+			<a href="/proyects">Proyects</a>
 			<a href="#Footer">Redes</a>
 		</nav>
 	);

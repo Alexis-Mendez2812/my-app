@@ -1,44 +1,26 @@
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer'
+import AboutMe from './components/AboutMe/AboutMe'
+import Proyects from './components/Proyects/Proyects'
+import { Route } from 'react-router-dom';
+import Home from './components/Home/Home';
 
 
 function App() {
 
   
   return (
-    <div className="App">
-      <header >
-      <NavBar/>
-      </header>
-    <main className="App-header" >
-      <h1>Titulo</h1>
-      <p> Loremasd
-        <br/>
-        asd
-        <br/>
-        asd
-        <br/>
-        asdasdas
-        <br/>
-        das
-        <br/>
-        das
-        <br/>
-        d
-        <br/>
-        asd
-        <br/>
-        as
-        <br/>
-        daasdasdas </p>
-    </main>
-        
-      <Footer/>
-        
+    <>
+    <NavBar/>
+    <Route path="/" exact component={Home} />
+    <Route path="/proyects" exact component={Proyects} />
+    <Route path="/aboutMe" exact component={AboutMe} />
+    <Footer/>
+    </>
 
-    </div>
-  );
+
+    );
 }
 
 export default App;
