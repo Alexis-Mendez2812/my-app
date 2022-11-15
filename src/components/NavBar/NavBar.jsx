@@ -10,6 +10,7 @@ const NavBar = () => {
             </a>
 			<a href="/aboutMe">About me</a>
 			<a href="/proyects">Proyects</a>
+			<a href="/Examples">Examples</a>
 			<a href="#Footer">Redes</a>
 		</nav>
 	);
