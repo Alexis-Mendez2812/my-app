@@ -25,7 +25,7 @@ const NavBar = () => {
 
 		{ user?.name && 
 		<a href="/profile">			
-		 <img src={user?.picture} alt={user?.name} /> 
+		 { user &&  <img src={user?user.picture: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXPL41UnOVTuYlONpTUTcFbRQJWGwGyrepqQ&usqp=CAU" } alt={user?.name} /> }
 		</a>
 		   }
 		{ !user?.name &&  <Login/>   }

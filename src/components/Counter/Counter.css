@@ -1,0 +1,21 @@
+.counter-container{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.set-counter{
+    width:10%;
+    margin: 10px ;
+}
+
+.number{
+    color: rgb(255, 245, 138);
+    margin: 0;
+    font-size: 2rem;
+}
